@@ -35,7 +35,8 @@ This project is part of a Technical Assessment.
 
 ### `References`
 
-[API documentation](https://fakestoreapi.com/docs)
+[API documentation](https://fakestoreapi.com/docs) \
+
 [Figma file](https://www.figma.com/file/Affmf8haXOxIUuoWNnwYqX/Frontend-Technical-Test---Wireapps?type=design&node-id=0-1&mode=design&t=k1Ic2HYmZVi8GSlr-0)
 
 ### `npm run start`
