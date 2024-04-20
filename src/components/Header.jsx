@@ -1,9 +1,20 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
+  const navigate = useNavigate();
+
+    const handleHeaderClick = () => {
+        // Navigate to "Home" page
+        navigate("/");
+    };
+
   return (
     <>
-        <h1 className="text-center text-black text-6xl font-bold">
+        <h1 
+          className="text-center text-black text-6xl font-bold"
+          onClick={handleHeaderClick}
+        >
             Modern Walk
         </h1>
 

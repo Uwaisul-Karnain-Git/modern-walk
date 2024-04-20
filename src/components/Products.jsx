@@ -2,7 +2,7 @@ import React from 'react'
 import ProductCard from './ProductCard'
 
 const Products = ({ title, productsList }) => {
-    console.log("Products: ", title, productsList)
+
     return (
         <>
             <div className='ml-16 mt-16'>
@@ -12,8 +12,9 @@ const Products = ({ title, productsList }) => {
             <div 
                 className="flex flex-wrap justify-start ml-14 mr-16 mt-4"
             >
-                {productsList.map(product => (
-                    <ProductCard product={product} />   
+                {productsList.length > 0 && 
+                    productsList.map(product => (
+                        <ProductCard product={product} />   
                 ))}
             </div>
         </>

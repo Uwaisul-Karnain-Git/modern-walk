@@ -40,7 +40,7 @@ const Home = () => {
 
         <Products title="Flash Sale" productsList={[...mensClothingItems, ...womensClothingItems]} />
 
-        <CategoryTile />
+        <CategoryTile mensClothingItems={mensClothingItems} womensClothingItems={womensClothingItems} />
     </>
   )
 }
