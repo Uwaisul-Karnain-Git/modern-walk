@@ -36,7 +36,7 @@ const Home = () => {
 
   return (
     <>
-        <Header />
+        <Header isHomePage={true} />
 
         <Products title="Flash Sale" productsList={[...mensClothingItems, ...womensClothingItems]} />
 

@@ -1,10 +1,14 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Header = () => {
+const Header = ({ isHomePage = false }) => {
   const navigate = useNavigate();
 
     const handleHeaderClick = () => {
+        // If on the 'Home' page just 'return' without navigating
+        if(isHomePage)
+          return;
+
         // Navigate to "Home" page
         navigate("/");
     };
