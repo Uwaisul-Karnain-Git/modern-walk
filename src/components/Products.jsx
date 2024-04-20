@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductCard from './ProductCard'
+import ShimmerUI from './ShimmerUI'
 
 const Products = ({ title, productsList }) => {
 
@@ -12,10 +13,14 @@ const Products = ({ title, productsList }) => {
             <div 
                 className="flex flex-wrap justify-start ml-14 mr-16 mt-4"
             >
-                {productsList.length > 0 && 
-                    productsList.map(product => (
-                        <ProductCard key={product.id} product={product} />   
-                ))}
+                {
+                    productsList.length > 2000 ?  
+                        (productsList.map(product => (
+                            <ProductCard key={product.id} product={product} />  
+                        )))
+                    :
+                    <ShimmerUI /> 
+                }
             </div>
         </>
     )

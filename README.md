@@ -22,8 +22,10 @@ This project is part of a Technical Assessment.
 
 ### `Other Key Features`
 
-- `Shimmer UI / Skeleton Loading`
+- `Shimmer UI / Skeleton Loading`.\
     A `design pattern` used in user interfaces to indicate that content is loading or that data is being fetched
+
+    <img width="1466" alt="Shimmer UI" src="https://github.com/Uwaisul-Karnain-Git/modern-walk/assets/78413138/26783416-58e9-4596-89fc-c26dcc36330c">
 
 ### `CSS Framework(s) Used`
 
@@ -35,7 +37,7 @@ This project is part of a Technical Assessment.
 
 ### `References`
 
-[API documentation](https://fakestoreapi.com/docs) \
+[API documentation](https://fakestoreapi.com/docs)
 
 [Figma file](https://www.figma.com/file/Affmf8haXOxIUuoWNnwYqX/Frontend-Technical-Test---Wireapps?type=design&node-id=0-1&mode=design&t=k1Ic2HYmZVi8GSlr-0)
 
