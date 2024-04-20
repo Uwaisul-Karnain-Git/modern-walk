@@ -20,7 +20,6 @@ const Home = () => {
         }
         const result = await response.json();
         setAllProducts(result);
-        console.log("Products: ", result)
       } catch (error) {
         console.error('Error fetching data:', error);
       }
