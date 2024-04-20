@@ -3,7 +3,7 @@ import { MENS_CLOTHING } from '../utils/constants'
 
 const ProductCard = ({ product }) => {
   return (
-    <div key={product.id} className="w-1/5 min-h-1/4 p-2 m-4 border-2 rounded-xl bg-white">
+    <div className="w-1/5 min-h-1/4 p-2 m-4 border-2 rounded-xl bg-white">
         <div className="py-2 min-h-28 text-center font-bold text-lg">
             <span>{product.title}</span>
         </div>
