@@ -14,7 +14,7 @@ const Products = ({ title, productsList }) => {
                 className="flex flex-wrap justify-start ml-14 mr-16 mt-4"
             >
                 {
-                    productsList.length > 2000 ?  
+                    productsList.length > 0 ?  
                         (productsList.map(product => (
                             <ProductCard key={product.id} product={product} />  
                         )))
