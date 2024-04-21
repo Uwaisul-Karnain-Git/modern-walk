@@ -41,6 +41,11 @@ This project is part of a Technical Assessment.
 
 [Figma file](https://www.figma.com/file/Affmf8haXOxIUuoWNnwYqX/Frontend-Technical-Test---Wireapps?type=design&node-id=0-1&mode=design&t=k1Ic2HYmZVi8GSlr-0)
 
+### `Cloning the Project`
+- `git clone "https://github.com/Uwaisul-Karnain-Git/modern-walk.git"`
+- `npm install`
+
+
 ### `npm run start`
 
 Run the application using above command.
